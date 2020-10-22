@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15699" started-at="2020-10-22T13:39:29 IST" finished-at="2020-10-22T13:39:45 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Saurabh.AutomationProject.TestRunner.TestRunner@167fdd33]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="15699" started-at="2020-10-22T13:39:29 IST" finished-at="2020-10-22T13:39:45 IST">
+      <class name="com.Saurabh.AutomationProject.TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Saurabh.AutomationProject.TestRunner.TestRunner@167fdd33]" name="setUpClass" is-config="true" duration-ms="425" started-at="2020-10-22T13:39:29 IST" finished-at="2020-10-22T13:39:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Saurabh.AutomationProject.TestRunner.TestRunner@167fdd33]" name="runScenario" duration-ms="14955" started-at="2020-10-22T13:39:30 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-22T13:39:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on Elements tab and elements page is loaded successfully."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test the home of the Tools QA website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Saurabh.AutomationProject.TestRunner.TestRunner@167fdd33]" name="tearDownClass" is-config="true" duration-ms="42" started-at="2020-10-22T13:39:44 IST" finished-at="2020-10-22T13:39:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Saurabh.AutomationProject.TestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
